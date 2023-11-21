@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/logo2.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: contain;
+    font-size: 0.875rem;
+    overflow-x: hidden;
+}
+.text-shadow-yellow {
+    text-shadow: 4px 4px 7px grey;
+}
+
+h1 b {
+    color: rgb(0, 0, 106);
+}
+h3 i {
+    color: rgb(0, 0, 106);
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: -5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin select[type="level"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+form {
+    padding: 30px;
+    margin-top: -30px;
+    box-shadow: 2px 2px 4px grey;
+    opacity: 0.85;
+    border-radius: 50px;
+}
